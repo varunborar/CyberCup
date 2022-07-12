@@ -20,7 +20,6 @@ const Event = (props) => {
             }
         }
         active.classList.add("active");
-        window.location = "#desc";
     });
 
     return(
