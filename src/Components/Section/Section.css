@@ -44,7 +44,7 @@
     color: var(--cc-accent-color-secondary);
 }
 
-.section button {
+.section .button {
     display: block;
     margin: 2rem auto;
 }

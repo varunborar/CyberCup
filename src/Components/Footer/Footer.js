@@ -8,6 +8,7 @@ import "./Footer.css";
 const Footer = (props) => {
     return (
         <div className="footer">
+            
             <h3>Follow Cyber Cup 2022</h3>
             <div className="social-media d-flex flex-row justify-content-center flex-wrap">
                 <a href="https://www.linkedin.com/company/cybercup22/">

@@ -1,0 +1,36 @@
+.faq {
+    position: relative;
+    z-index: 10;
+}
+
+.faq span {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    display: block;
+    text-align: center;
+}
+
+.accordion {
+    margin-top: 2rem;
+    background-color: var(--cc-background-color-secondary);
+}
+
+.accordion .acc-item {
+    background-color: var(--cc-background-color-secondary) !important;
+    color: var(--cc-text-color-primary);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.accordion .accordion-button {
+    background-color: var(--cc-background-color-secondary);
+    color: var(--cc-text-color-primary);
+}
+
+.accordion .accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion .accordion-body {
+    background-color: var(--cc-background-color-secondary) !important;
+    color: var(--cc-text-color-primary);
+}

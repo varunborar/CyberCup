@@ -6,8 +6,8 @@
 .left-col {
     z-index: 10;
     position: relative;
-    margin: 2rem;
-    padding: 6rem 0.75rem;
+    margin: 2rem 1rem 0rem 1rem;
+    padding: 0.75rem 0.75rem;
     /* background-color: rgba(255, 255, 255, 0.1); */
     border-radius: 0.25rem;
     display: flex;
@@ -18,11 +18,12 @@
 .right-col {
     z-index: 10;
     position: relative;
-    margin: 2rem;
+    margin: 1.25rem 1rem 3rem 1rem;
     padding: 0.75rem;
     border-radius: 0.25rem;
     min-height: 25vh;
     display: flex;
+    flex-direction: column;
 }
 
 .date {

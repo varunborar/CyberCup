@@ -56,7 +56,7 @@ const Event = (props) => {
             <Col id="desc" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
-                <Button variant="danger" className="register-btn disabled">Register Now</Button>
+                <Button variant="danger" className="register-btn button disabled">Register Now</Button>
                 <label>Registrations will begin soon!</label>
             </Col>
                 

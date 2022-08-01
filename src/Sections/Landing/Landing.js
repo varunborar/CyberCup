@@ -3,7 +3,7 @@ import React from 'react';
 import Animation from './Animation';
 import Countdown from "../../Components/Countdown/Countdown";
 import "./Landing.css";
-import CyberCup from "./Resources/LLW.svg";
+import CyberCup from "./Resources/LLW.png";
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,7 +19,7 @@ function Landing(props) {
                         xs={{ span: 11, order: 1 }}
                         sm={{ span: 11, order: 1 }}
                         md={{ span: 8, order: 1}}
-                        lg={{ span: 5, order: 1 }}
+                        lg={{ span: 8, order: 1 }}
                     >
                         <img
                             src={CyberCup}
@@ -28,11 +28,8 @@ function Landing(props) {
                             alt="Cyber Cup Logo"
                         />
                         <h1 className="date">
-                            5<sup>th</sup> - 9<sup>th</sup> September, 2022
+                            21<sup>st</sup> - 23<sup>rd</sup> September, 2022
                         </h1>
-                        <div className="actions d-flex justify-content-center flex-column flex-md-row">
-                            <Button variant="primary m-2">Sponsor</Button>
-                        </div>
                     </Col>
                     <Col className="right-col justify-content-center align-items-center"
                         xs={{ span: 12, order: 2 }}
@@ -41,9 +38,12 @@ function Landing(props) {
                         lg={{ span: 5, order: 2 }}
                     >
                         <Countdown
-                            targetDate={new Date("2022-09-05")}
+                            targetDate={new Date("2022-09-21")}
                             ExpiredMessage="Let the Events Begin!"
                         />
+                        <div className="actions d-flex justify-content-center flex-column flex-md-row">
+                            <Button variant="primary m-2">Sponsor</Button>
+                        </div>
                     </Col>
                 </Row>
             </Container>

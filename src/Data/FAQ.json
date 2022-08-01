@@ -1,0 +1,51 @@
+[{
+        "_id": 1,
+        "header": "When and where is Cyber Cup happening?",
+        "body": "It will be happening in September 21st - 23rd 2022, at Amity University, Noida campus."
+    },
+    {
+        "_id": 2,
+        "header": "Who is this event for?",
+        "body": "This event is open to undergraduate students from Amity as well as from other colleges who are up for an exciting challenge!"
+    },
+    {
+        "_id": 3,
+        "header": "Are there any prerequisites or required skills?",
+        "body": "While knowledge in coding and programming is undoubtedly a huge plus, people with strong presentation skills and brilliant ideas are always needed in a team."
+    },
+    {
+        "_id": 4,
+        "header": "Do i need a team?",
+        "body": "While in some events participation is only allowed in teams, other events allow individual participation as well. Check the event page to know more."
+    },
+    {
+        "_id": 5,
+        "header": "Can I participate in multiple events?",
+        "body": "Yes, you can participate in any number of events you want and bag as many prizes as you can!"
+    },
+    {
+        "_id": 6,
+        "header": "How much does it cost?",
+        "body": "It’s Free. There is no participation cost."
+    },
+    {
+        "_id": 7,
+        "header": "Can i also join remotely?",
+        "body": "No, we want this hackathon to be an onsite event so remotely joining as well as working with a remote team is not allowed."
+    },
+    {
+        "_id": 8,
+        "header": "How to register for the events?",
+        "body": "All you have to do is click the register now button and fill the necessary details, and you’re ready to go! Yes, the events are free of cost!"
+    },
+    {
+        "_id": 9,
+        "header": "How do I get regular updates about the events?",
+        "body": "Regular updation mails will be sent to you once you register for an event. For more details, follow our socials : Instagram & LinkedIn"
+    },
+    {
+        "_id": 10,
+        "header": "What is in it for me?",
+        "body": "Hackathons and coding competitions are a great way to expand your network, brainstorm and unleash your potential to bring out the best in you! Also, top scorers in each Hackathon will be getting some amazing prizes and vouchers!"
+    }
+]
