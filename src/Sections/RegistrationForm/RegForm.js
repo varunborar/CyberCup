@@ -62,15 +62,17 @@ const RegForm = (props) => {
     for (let i = 0; i < members; i++) {
       row.push(
         <fieldset>
-
-          <label className="form-label gx-5" for="form3Example1q">Enter Details of Member {i + 1} </label>
+          <br/>
+          <br/>
+          
+          <label className="form-label gx-5" id='headingteammem' for="form3Example1q">Enter Details of Member {i + 1} </label>
           <div class="row rowforflname" >
 
             <div class="col-md-6 mb-4">
 
               <div class="form-outline">
                 <label class="form-label" for="name"> Name:</label>
-                <input type="text" id="lastName" class="form-control page form-control-lg" required onChange={e => setNames(i, e.target.value)} />
+                <input type="text" id="lastName" className="form-control page form-control-lg" required onChange={e => setNames(i, e.target.value)} />
 
               </div>
 
@@ -80,7 +82,7 @@ const RegForm = (props) => {
 
               <div class="form-outline">
                 <label class="form-label" for="mobile">Mobile Number: </label>
-                <input type="text" id="mobile" onChange={e => setNumbers(i, e.target.value)} required class="form-control page form-control-lg" />
+                <input type="text" className="form-control page form-control-lg" id="mobile" onChange={e => setNumbers(i, e.target.value)} required />
 
               </div>
 
@@ -131,7 +133,7 @@ const RegForm = (props) => {
 
             </div>
           </div>
-
+          
         </fieldset>
       )
     }
@@ -181,12 +183,13 @@ const RegForm = (props) => {
                   <div class="row">
                     <div class="col-md-6 mb-3">
 
-                      <label className="form-label gx-5" for="form3Example1q">Select Event</label>
+                      <label className="form-label gx-3" for="form3Example1q">Select Event</label>
                       <select className="page select" id="event-drop" name="events" required onChange={e => setEvent(e.target.value)}>
                         {
                           EventData.map((Event) => {
                             return (
-                              <option key={Event._id} value={Event.name}>{Event.name}</option>
+                              <option id='options' key={Event._id} value={Event.name}>{Event.name}</option>
+
                             )
                           })
                         }
@@ -197,8 +200,8 @@ const RegForm = (props) => {
 
                       <label className="form-label gx-5" for="form3Example1q">Select number of Members: </label>
                       <input type='text' id='num-of-members' name="num-of-members" placeholder={members} disabled="disabled" required></input>
-                      <button className='page' onClick={Increment}>+</button>
-                      <button className='page' onClick={Decrement}>-</button>
+                      <button className='page' id = "icbutton" onClick={Increment}>+</button>
+                      <button className='page' id = "dcbutton"onClick={Decrement}>-</button>
 
                     </div>
                   </div>

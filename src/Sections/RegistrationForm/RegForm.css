@@ -42,3 +42,36 @@ option {
 .card{
     background-color: #393939;
 }
+
+#options, #event-drop {
+    border-radius: 0.3rem;
+    width: 22rem;
+    height: 2rem;
+}
+
+#num-of-members{
+    border-radius: 0.3rem;
+    width: 18rem;
+    height: 2rem;
+}
+
+#icbutton{
+    border-radius: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#dcbutton{
+    border-radius: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#headingteammem {
+    font-size: 1.5rem;
+}
+
+.form-control{
+    background-color: #757575;
+}
