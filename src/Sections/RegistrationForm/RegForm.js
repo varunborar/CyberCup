@@ -66,22 +66,22 @@ const RegForm = (props) => {
           <br/>
           
           <label className="form-label gx-5" id='headingteammem' for="form3Example1q">Enter Details of Member {i + 1} </label>
-          <div class="row rowforflname" >
+          <div className="row rowforflname" >
 
-            <div class="col-md-6 mb-4">
+            <div className="col-md-6 mb-4">
 
-              <div class="form-outline">
-                <label class="form-label" for="name"> Name:</label>
+              <div className="form-outline">
+                <label className="form-label" for="name"> Name:</label>
                 <input type="text" id="lastName" className="form-control page form-control-lg" required onChange={e => setNames(i, e.target.value)} />
 
               </div>
 
             </div>
 
-            <div class="col-md-6 mb-4">
+            <div className="col-md-6 mb-4">
 
-              <div class="form-outline">
-                <label class="form-label" for="mobile">Mobile Number: </label>
+              <div className="form-outline">
+                <label className="form-label" for="mobile">Mobile Number: </label>
                 <input type="text" className="form-control page form-control-lg" id="mobile" onChange={e => setNumbers(i, e.target.value)} required />
 
               </div>
@@ -90,44 +90,44 @@ const RegForm = (props) => {
 
           </div>
 
-              <div class="form-outline mb-4">
-                <label class="form-label" for="email">Email: </label>
-                <input type="text" id="email" onChange={e => setEmails(i, e.target.value)} required class="form-control page form-control-lg" />
+              <div className="form-outline mb-4">
+                <label className="form-label" for="email">Email: </label>
+                <input type="text" id="email" onChange={e => setEmails(i, e.target.value)} required className="form-control page form-control-lg" />
 
 
           </div>
 
 
-          <div class="form-outline mb-4">
+          <div className="form-outline mb-4">
             <label className="form-label" for="college">College:</label>
-            <input type="text" id="college" onChange={e => setColleges(i, e.target.value)} required class="form-control page" />
+            <input type="text" id="college" onChange={e => setColleges(i, e.target.value)} required className="form-control page" />
           </div>
 
 
-          <div class="row rowfordegbran" >
-            <div class="col-md-6 mb-4">
+          <div className="row rowfordegbran" >
+            <div className="col-md-6 mb-4">
 
-              <div class="form-outline">
-                <label class="form-label" for="degree">Degree:</label>
-                <input type="text" id="degree" onChange={e => setDegrees(i, e.target.value)} required class="form-control page form-control-lg" />
-
-              </div>
-
-            </div>
-            <div class="col-md-6 mb-4">
-
-              <div class="form-outline">
-                <label class="form-label" for="branch">Branch:</label>
-                <input type="text" id="branch" onChange={e => setBranches(i, e.target.value)} required class="form-control page form-control-lg" />
+              <div className="form-outline">
+                <label className="form-label" for="degree">Degree:</label>
+                <input type="text" id="degree" onChange={e => setDegrees(i, e.target.value)} required className="form-control page form-control-lg" />
 
               </div>
 
             </div>
-            {/* <div class="col-md-6 mb-4"> */}
+            <div className="col-md-6 mb-4">
 
-            <div class="form-outline mb-4">
-                <label class="form-label" for="state">State: </label>
-                <input type="text" id="state" onChange={e => setStates(i, e.target.value)} required class="form-control page form-control-lg" />
+              <div className="form-outline">
+                <label className="form-label" for="branch">Branch:</label>
+                <input type="text" id="branch" onChange={e => setBranches(i, e.target.value)} required className="form-control page form-control-lg" />
+
+              </div>
+
+            </div>
+            {/* <div className="col-md-6 mb-4"> */}
+
+            <div className="form-outline mb-4">
+                <label className="form-label" for="state">State: </label>
+                <input type="text" id="state" onChange={e => setStates(i, e.target.value)} required className="form-control page form-control-lg" />
 
               {/* </div> */}
 
@@ -163,25 +163,25 @@ const RegForm = (props) => {
   return (
 
     <section className="page h-100 h-custom maincontainer" >
-      <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-lg-8 ">
-            <div class="card rounded-3">
-              <div class="card-body p-4 p-md-5">
-                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Info</h3>
+      <div className="container py-5 h-100">
+        <div className="row d-flex justify-content-center align-items-center h-100">
+          <div className="col-lg-8 ">
+            <div className="card rounded-3">
+              <div className="card-body p-4 p-md-5">
+                <h3 className="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Info</h3>
 
-                <form class="px-md-2">
+                <form className="px-md-2">
 
-                  <div class="form-outline mb-4" id='page2'>
+                  <div className="form-outline mb-4" id='page2'>
                     <label className="form-label" for="form3Example1q">Team Name</label>
-                    <input type="text" id="form3Example1q" class="page form-control" onChange={(event) => {
+                    <input type="text" id="form3Example1q" className="page form-control" onChange={(event) => {
                       setTeamname(event.target.value)
                     }} required />
 
                   </div>
 
-                  <div class="row">
-                    <div class="col-md-6 mb-3">
+                  <div className="row">
+                    <div className="col-md-6 mb-3">
 
                       <label className="form-label gx-3" for="form3Example1q">Select Event</label>
                       <select className="page select" id="event-drop" name="events" required onChange={e => setEvent(e.target.value)}>
@@ -196,7 +196,7 @@ const RegForm = (props) => {
                       </select>
 
                     </div>
-                    <div class="col-md-6 mb-4">
+                    <div className="col-md-6 mb-4">
 
                       <label className="form-label gx-5" for="form3Example1q">Select number of Members: </label>
                       <input type='text' id='num-of-members' name="num-of-members" placeholder={members} disabled="disabled" required></input>
@@ -208,7 +208,7 @@ const RegForm = (props) => {
 
                   {teamMemebers()}
 
-                  <input type="submit" onClick={ubmit()} class="btn btn-success page btn-lg mb-1" value='Submit'></input>
+                  <input type="submit" onClick={ubmit()} className="btn btn-success page btn-lg mb-1" value='Submit'></input>
 
                 </form>
 
