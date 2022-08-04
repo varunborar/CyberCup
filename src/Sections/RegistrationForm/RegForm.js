@@ -70,7 +70,7 @@ const RegForm = (props) => {
 
               <div class="form-outline">
                 <label class="form-label" for="name"> Name:</label>
-                <input type="text" id="lastName" class="form-control form-control-lg" required onChange={e => setNames(i, e.target.value)} />
+                <input type="text" id="lastName" class="form-control page form-control-lg" required onChange={e => setNames(i, e.target.value)} />
 
               </div>
 
@@ -80,7 +80,7 @@ const RegForm = (props) => {
 
               <div class="form-outline">
                 <label class="form-label" for="mobile">Mobile Number: </label>
-                <input type="text" id="mobile" onChange={e => setNumbers(i, e.target.value)} required class="form-control form-control-lg" />
+                <input type="text" id="mobile" onChange={e => setNumbers(i, e.target.value)} required class="form-control page form-control-lg" />
 
               </div>
 
@@ -90,7 +90,7 @@ const RegForm = (props) => {
 
               <div class="form-outline mb-4">
                 <label class="form-label" for="email">Email: </label>
-                <input type="text" id="email" onChange={e => setEmails(i, e.target.value)} required class="form-control form-control-lg" />
+                <input type="text" id="email" onChange={e => setEmails(i, e.target.value)} required class="form-control page form-control-lg" />
 
 
           </div>
@@ -98,7 +98,7 @@ const RegForm = (props) => {
 
           <div class="form-outline mb-4">
             <label className="form-label" for="college">College:</label>
-            <input type="text" id="college" onChange={e => setColleges(i, e.target.value)} required class="form-control" />
+            <input type="text" id="college" onChange={e => setColleges(i, e.target.value)} required class="form-control page" />
           </div>
 
 
@@ -107,7 +107,7 @@ const RegForm = (props) => {
 
               <div class="form-outline">
                 <label class="form-label" for="degree">Degree:</label>
-                <input type="text" id="degree" onChange={e => setDegrees(i, e.target.value)} required class="form-control form-control-lg" />
+                <input type="text" id="degree" onChange={e => setDegrees(i, e.target.value)} required class="form-control page form-control-lg" />
 
               </div>
 
@@ -116,7 +116,7 @@ const RegForm = (props) => {
 
               <div class="form-outline">
                 <label class="form-label" for="branch">Branch:</label>
-                <input type="text" id="branch" onChange={e => setBranches(i, e.target.value)} required class="form-control form-control-lg" />
+                <input type="text" id="branch" onChange={e => setBranches(i, e.target.value)} required class="form-control page form-control-lg" />
 
               </div>
 
@@ -125,7 +125,7 @@ const RegForm = (props) => {
 
             <div class="form-outline mb-4">
                 <label class="form-label" for="state">State: </label>
-                <input type="text" id="state" onChange={e => setStates(i, e.target.value)} required class="form-control form-control-lg" />
+                <input type="text" id="state" onChange={e => setStates(i, e.target.value)} required class="form-control page form-control-lg" />
 
               {/* </div> */}
 
@@ -160,7 +160,7 @@ const RegForm = (props) => {
 
   return (
 
-    <section className="h-100 h-custom maincontainer" >
+    <section className="page h-100 h-custom maincontainer" >
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-lg-8 ">
@@ -172,7 +172,7 @@ const RegForm = (props) => {
 
                   <div class="form-outline mb-4" id='page2'>
                     <label className="form-label" for="form3Example1q">Team Name</label>
-                    <input type="text" id="form3Example1q" class="form-control" onChange={(event) => {
+                    <input type="text" id="form3Example1q" class="page form-control" onChange={(event) => {
                       setTeamname(event.target.value)
                     }} required />
 
@@ -182,7 +182,7 @@ const RegForm = (props) => {
                     <div class="col-md-6 mb-3">
 
                       <label className="form-label gx-5" for="form3Example1q">Select Event</label>
-                      <select className="select" id="event-drop" name="events" required onChange={e => setEvent(e.target.value)}>
+                      <select className="page select" id="event-drop" name="events" required onChange={e => setEvent(e.target.value)}>
                         {
                           EventData.map((Event) => {
                             return (
@@ -197,15 +197,15 @@ const RegForm = (props) => {
 
                       <label className="form-label gx-5" for="form3Example1q">Select number of Members: </label>
                       <input type='text' id='num-of-members' name="num-of-members" placeholder={members} disabled="disabled" required></input>
-                      <button onClick={Increment}>+</button>
-                      <button onClick={Decrement}>-</button>
+                      <button className='page' onClick={Increment}>+</button>
+                      <button className='page' onClick={Decrement}>-</button>
 
                     </div>
                   </div>
 
                   {teamMemebers()}
 
-                  <input type="submit" onClick={ubmit()} class="btn btn-success btn-lg mb-1" value='Submit'></input>
+                  <input type="submit" onClick={ubmit()} class="btn btn-success page btn-lg mb-1" value='Submit'></input>
 
                 </form>
 
@@ -215,7 +215,7 @@ const RegForm = (props) => {
         </div>
       </div>
 
-      {/* <Animation/> */}
+      <Animation/>
     </section>
 
   )

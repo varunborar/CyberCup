@@ -5,11 +5,12 @@
 }
 
 .page {
-    /* position: relative; */
+    position: relative;
     z-index: 20 !important;
 }
 #page2 {
-    /* position: relative; */
+    position: relative;
+
     z-index: 20 !important;
 }
 
