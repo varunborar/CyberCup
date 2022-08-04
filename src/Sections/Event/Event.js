@@ -59,7 +59,7 @@ const Event = (props) => {
             <Col id="desc" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
-                <Button variant="danger" className="register-btn button" onClick={() => {window.scrollTo(0,0);
+                <Button variant="danger" className="register-btn disabled button" onClick={() => {window.scrollTo(0,0);
                 navigate("/register");}}>Register Now</Button>
                 <label>Registrations will begin soon!</label>
             </Col>
