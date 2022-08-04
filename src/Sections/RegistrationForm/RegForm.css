@@ -5,7 +5,11 @@
 }
 
 .page {
-    position: relative;
+    /* position: relative; */
+    z-index: 20 !important;
+}
+#page2 {
+    /* position: relative; */
     z-index: 20 !important;
 }
 
@@ -27,7 +31,7 @@ option {
     .h-custom {
     height: 100vh !important;
     }
-    }
+}
 
 .container{
     
