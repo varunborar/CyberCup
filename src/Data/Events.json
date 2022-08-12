@@ -1,35 +1,23 @@
 [{
         "_id": 1,
-        "name": "Design Sprint",
-        "short": "48-hours long UI/UX design hackathon",
-        "long": "This UI/UX Design Hackathon is a 48-hour long creativity challenge which will allow creative minds to fully use their capabilities and imagination and create new designs and ideas for an optimal user experience. The hackathon will be drafted in a way which will allow neophytes, dilettantes and adroit to easily adapt to the problem served, and will allow an overall gain in knowledge and experience of the participants in UI/UX domain."
-    },
-    {
-        "_id": 2,
         "name": "Comp cop",
         "short": "48-hours Long capture the flag competition",
         "long": "A 48-hour long capture the flag competition pertaining to Cyber Security, with emphasis on application of principles and measures of ensuring Cyber Security. The objective is to spread awareness about Cyber Security posed by today’s connected world and to make people aware of the methods to deal with them."
     },
     {
-        "_id": 3,
-        "name": "Ai Classico",
-        "short": "48 hours long ai-ml project based hackathon",
-        "long": "A 48-hour long hackathon to bring creatives and developers together to solve some of the most pressing problems that we face in real-life. The initiative of this hackathon is to provide the AI/ML enthusiasts with a platform and opportunity to learn, apply and showcase their AI/ML skills through the social impact challenges that will be presented to them."
-    },
-    {
-        "_id": 4,
+        "_id": 2,
         "name": "Blend it",
         "short": "24 hours long 2- rounds based photo editing competition",
         "long": "The photoshoot is only the first half of creating a great image. A skilled photo editor can take a good RAW image and use a myriad of techniques to create a stunning final photo. This event is a 24-hour long, 2-tiered photo editing competition for the artistic minds to showcase their skills and creativity."
     },
     {
-        "_id": 5,
+        "_id": 3,
         "name": "Tech wizard",
         "short": "3 rounds based quiz competition on dsa and new technologies",
         "long": "Data Structure and Algorithms (DSA) is the most important part of Computer Science. Data structure is a way of organizing data in such a way that we can perform operations on that data easily. This event is a 3-tiered Quiz competition on DSA & Technologies for the techies to test their programming skills from beginner to advanced level. This quiz will help you clear your concepts and prepare for technical rounds, interviews, competitive exams, etc."
     },
     {
-        "_id": 6,
+        "_id": 4,
         "name": "Filter All",
         "short": "2 rounds based Ar filter competition",
         "long": "This event is a 2-tiered AR filter competition. The competition gives the participants with a chance to turn their creativity into numerous prizes and earn their credibility. Entrants will submit effects inspired by a specific theme or capability, which will be judged based on craftsmanship, originality and user engagement."

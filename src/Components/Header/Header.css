@@ -14,7 +14,9 @@
     position: relative;
 }
 
+
 /*Changing color of hamburger icon*/
-.header .navbar .container > button > span.navbar-toggler-icon {
-    filter: invert(1);
+
+.header .navbar .container>button>span.navbar-toggler-icon {
+    /* filter: invert(1); */
 }

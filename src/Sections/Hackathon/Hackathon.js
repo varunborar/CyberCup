@@ -5,15 +5,15 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 
-import EventData from "../../Data/Events.json";
+import HackathonData from "../../Data/Hackathons.json";
 
-import "./Event.css";
+import "./Hackathon.css";
 
-const Event = (props) => {
-    const [activeCard, setActiveCard] = useState(EventData[0]);
+const Hackathon = (props) => {
+    const [activeCard, setActiveCard] = useState(HackathonData[0]);
     useEffect(()=>{
         var active = document.getElementById(activeCard.name);
-        var eventList = document.getElementsByClassName('event-card');
+        var eventList = document.getElementsByClassName('hackathon-card');
         for (var event of eventList){
             if(event.classList.contains("active")){
                 event.classList.remove("active");
@@ -23,21 +23,21 @@ const Event = (props) => {
     });
 
     return(
-        <Section id="event" name="Events">
+        <Section id="hackathon" name="Hackathons">
             <Row 
                 className="event-container justify-content-center"
             >
             <Col
-                xs={{ span: 10}}
-                sm={{ span: 10}}
+                xs={{ span: 12}}
+                sm={{ span: 12}}
                 md={{ span: 6}}
                 lg={{ span: 4}}
             >
                 {
-                    EventData.map((cardData)=> {
+                    HackathonData.map((cardData)=> {
                         return (
                             <div 
-                                className="event-card"
+                                className="hackathon-card"
                                 key={cardData._id}
                                 id={cardData.name}
                                 data={cardData}
@@ -47,13 +47,13 @@ const Event = (props) => {
                                 }
                             >
                                 <h2>{cardData.name}</h2>
-                                <p className="hide-on-mobile">{cardData.short}</p>
+                                <p>{cardData.short}</p>
                             </div>
                         )
                     })
                 }
             </Col>
-            <Col id="desc" className="desc-container justify-content-start">
+            <Col id="desc2" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
                 <Button variant="danger" className="register-btn button disabled">Register Now</Button>
@@ -65,4 +65,4 @@ const Event = (props) => {
     )
 }
 
-export default Event;
+export default Hackathon;

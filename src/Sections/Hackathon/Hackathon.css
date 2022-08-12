@@ -1,13 +1,14 @@
-#event {
+#hackathon {
     position: relative;
     z-index: 10 !important;
+    min-height: 75vh;
 }
 
 .event-container {
     margin-top: 2rem;
 }
 
-.event-card {
+.hackathon-card {
     background-color: var(--cc-background-color-secondary);
     border-radius: 5px;
     min-height: 6rem;
@@ -17,66 +18,60 @@
     text-align: right;
 }
 
-.event-card h2 {
+.hackathon-card h2 {
     font-size: 1.4rem;
     margin: 3px;
     padding: 3px;
     color: var(--cc-accent-color-primary);
 }
 
-.event-card p {
+.hackathon-card p {
     font-size: 0.8rem;
     margin: 3px;
     padding: 3px;
     color: var(--cc-text-color-secondary);
 }
 
-.event-card.active {
+.hackathon-card.active {
     background-color: var(--cc-text-color-secondary);
 }
 
-.event-card.active p {
+.hackathon-card.active p {
     color: var(--cc-background-color-primary);
 }
 
-#event .desc-container {
+#hackathon .desc-container {
     margin: 8px;
     padding: 8px;
     border-radius: 5px;
     /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
-#event .desc-conatiner p {
+#hackathon .desc-conatiner p {
     color: var(--cc-text-color-secondary);
 }
 
-#event .desc-container h1 {
+#hackathon .desc-container h1 {
     color: var(--cc-accent-color-primary);
 }
 
-#event .desc-container .register-btn {
+#hackathon .desc-container .register-btn {
     margin: 2rem 0 0 0;
 }
 
-#event .desc-container label {
+#hackathon .desc-container label {
     color: var(--cc-text-color-secondary);
     font-size: 0.6rem;
 }
 
 @media screen and (max-width: 768px) {
-    #event .desc-container {
+    #hackathon .desc-container {
         text-align: center;
     }
-    #event .desc-container .register-btn {
+    #hackathon .desc-container .register-btn {
         margin: 2rem auto 0 auto;
     }
-    .event-card {
+    .hackathon-card {
         text-align: center;
-        margin: 4px;
-        padding: 4px;
-        min-height: 1rem;
-    }
-    .hide-on-mobile {
-        display: none;
     }
 }

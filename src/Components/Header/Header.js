@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 const Header = (props) => {
     return (
         <div className="header">
-            <Navbar class="navbar-dark" bg="transparent" expand="lg">
+            <Navbar className="navbar-dark" bg="transparent" expand="lg">
                 <Container>
                     <Navbar.Brand>
                         <img

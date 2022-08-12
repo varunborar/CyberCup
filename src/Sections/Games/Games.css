@@ -1,0 +1,42 @@
+#games {
+    position: relative;
+    z-index: 10;
+}
+
+#games .game-container {
+    margin-top: 2rem;
+}
+
+.game-card {
+    width: 90%;
+    padding: 4px;
+    margin: 0.5rem;
+    border-radius: 4px;
+    min-height: 6rem;
+    background-color: var(--cc-background-color-secondary);
+}
+
+.game-icon {
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.game-title {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.90rem;
+    display: block;
+}
+
+#games label {
+    color: var(--cc-text-color-secondary);
+    font-size: 0.6rem;
+}
+
+#games .register-btn {
+    font-size: 0.75rem;
+    margin: 2px;
+    margin-left: 0.5rem;
+}

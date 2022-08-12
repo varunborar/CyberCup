@@ -1,0 +1,16 @@
+[{
+        "_id": 1,
+        "name": "CODM",
+        "image": "codm.png"
+    },
+    {
+        "_id": 2,
+        "name": "Valorant",
+        "image": "valorant.png"
+    },
+    {
+        "_id": 3,
+        "name": "Casual Games",
+        "image": "casual.png"
+    }
+]
