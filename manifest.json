@@ -1,6 +1,6 @@
 {
-    "short_name": "Cyber Cup 2022 Official Site",
-    "name": "Cyber Cup is a 3-day long techfest, celebrating technologial prowess and cultural diversity.",
+    "short_name": "Cyber Cup",
+    "name": "Cyber Cup 2022 Official Site",
     "icons": [{
         "src": "assets/images/favicon.png",
         "sizes": "192x192",
