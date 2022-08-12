@@ -46,8 +46,9 @@
     /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
-#event .desc-conatiner p {
+#event .desc-container p {
     color: var(--cc-text-color-secondary);
+    text-align: justify;
 }
 
 #event .desc-container h1 {

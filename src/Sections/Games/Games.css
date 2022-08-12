@@ -33,6 +33,7 @@
 #games label {
     color: var(--cc-text-color-secondary);
     font-size: 0.6rem;
+    margin-left: 0.5rem;
 }
 
 #games .register-btn {
