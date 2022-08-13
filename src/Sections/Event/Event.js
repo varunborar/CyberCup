@@ -4,6 +4,7 @@ import Section from "../../Components/Section/Section";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from 'react-router-dom';
 
 import EventData from "../../Data/Events.json";
 
@@ -21,6 +22,8 @@ const Event = (props) => {
         }
         active.classList.add("active");
     });
+
+    const navigate=useNavigate();
 
     return(
         <Section id="event" name="Events">
@@ -56,7 +59,8 @@ const Event = (props) => {
             <Col id="desc" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
-                <Button variant="danger" className="register-btn button disabled">Register Now</Button>
+                <Button variant="danger" className="register-btn disabled button" onClick={() => {window.scrollTo(0,0);
+                navigate("/register");}}>Register Now</Button>
                 <label>Registrations will begin soon!</label>
             </Col>
                 

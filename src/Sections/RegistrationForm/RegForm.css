@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    position: relative;
+    z-index: 20 !important;
+}
+#page2 {
+    position: relative;
+
+    z-index: 20 !important;
+}
+
+form {
+    
+    z-index: 20 !important;
+}
+
+input, select {
+    background-color: #ffffff5e;
+    color: white;
+}
+
+option {
+    background-color: rgb(106, 106, 106);
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+}
+
+.container{
+    
+    /* color: red; */
+} 
+
+.card{
+    background-color: #393939;
+}
+
+#options, #event-drop {
+    border-radius: 0.3rem;
+    width: 22rem;
+    height: 2rem;
+}
+
+#num-of-members{
+    border-radius: 0.3rem;
+    width: 18rem;
+    height: 2rem;
+}
+
+#icbutton{
+    border-radius: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#dcbutton{
+    border-radius: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#headingteammem {
+    font-size: 1.5rem;
+}
+
+.form-control{
+    background-color: #757575;
+}
