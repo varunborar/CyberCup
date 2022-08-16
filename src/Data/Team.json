@@ -1,0 +1,41 @@
+[{
+        "_id": 1,
+        "name": "Prince Sindhu",
+        "github": "https://github.com/XOPRINCEXO",
+        "linkedin": "https://www.linkedin.com/in/prince-sindhu/",
+        "email": "princesindhu@mg.cybercup.live",
+        "dp": "prince.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Umang Sehgal",
+        "github": "https://github.com/Umang-Sehgal",
+        "linkedin": "https://www.linkedin.com/in/umang-sehgal",
+        "email": "umangsehgal@mg.cybercup.live",
+        "dp": "umang.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Chhavi Garg",
+        "github": "https://mobile.twitter.com/chhavigg",
+        "linkedin": "https://www.linkedin.com/in/chhavigg",
+        "email": "chhavigarg@mg.cybercup.live",
+        "dp": "chhavi.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "Varun Borar",
+        "github": "https://gtihub.com/varunborar",
+        "linkedin": "https://www.linkedin.com/in/varun-borar/",
+        "email": "varunborar@mg.cybercup.live",
+        "dp": "varun.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "Vibhu Gupta",
+        "github": "https://github.com/Vibhugupta10616",
+        "linkedin": "http://linkedin.com/in/vibhu-gupta-10616",
+        "email": "vibhugupta@mg.cybercup.live",
+        "dp": "vibhu.jpeg"
+    }
+]

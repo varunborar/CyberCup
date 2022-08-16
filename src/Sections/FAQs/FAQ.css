@@ -34,3 +34,7 @@
     background-color: var(--cc-background-color-secondary) !important;
     color: var(--cc-text-color-primary);
 }
+
+#faqs .reach-out {
+    color: red;
+}

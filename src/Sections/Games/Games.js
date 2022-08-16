@@ -23,6 +23,7 @@ const Games = (props) => {
                                 sm={{ span: 12 }}
                                 md={{ span: 6 }}
                                 lg={{ span: 4 }}
+                                key={Data._id}
                             >
                                 <GameCard 
                                     key={Data._id}

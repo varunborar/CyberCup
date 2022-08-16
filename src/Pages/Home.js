@@ -6,6 +6,7 @@ import Event from '../Sections/Event/Event';
 import FAQs from '../Sections/FAQs/FAQs';
 import Hackathon from '../Sections/Hackathon/Hackathon';
 import Games from '../Sections/Games/Games';
+import Team from '../Sections/Team/Team';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Hackathon></Hackathon>
             <Event></Event>
             <Games></Games>
+            <Team></Team>
             <FAQs></FAQs>
             <Footer></Footer>
         </div>

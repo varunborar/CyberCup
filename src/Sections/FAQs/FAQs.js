@@ -28,7 +28,7 @@ const FAQs = () => {
                             })
                         }
                     </Accordion>
-                    <span className="reachout">Not found what you were looking for? Reach out to us.</span>
+                    <span className="reachout">Not found what you were looking for? <a href="mailto:support@mg.cybercup.live" className="reach-out">Reach out to us.</a></span>
                 </Col>
             </Section>
         </div>
