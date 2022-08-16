@@ -14,7 +14,7 @@
     --cc-background-color-primary: #121212;
     --cc-background-color-secondary: #393939;
     --cc-accent-color-primary: red;
-    --cc-accent-color-secondary: #0B940B;
+    /* --cc-accent-color-secondary: #0B940B; */
 }
 
 body {
