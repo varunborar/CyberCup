@@ -30,6 +30,7 @@ const Games = (props) => {
                                     _id={Data._id}
                                     name={Data.name}
                                     image={Data.image}
+                                    path={Data.path}
                                 ></GameCard>
                             </Col>
                         )

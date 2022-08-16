@@ -9,8 +9,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 function Landing(props) {
+    let navigate = useNavigate();
+    const routeChange = (event) => {
+        navigate(event.target.attributes.redirect.nodeValue);
+        // console.log();
+    }
     return (
         <div className="landing">
             <Container>
@@ -18,7 +24,7 @@ function Landing(props) {
                     <Col className="left-col flex-column"
                         xs={{ span: 11, order: 1 }}
                         sm={{ span: 11, order: 1 }}
-                        md={{ span: 8, order: 1}}
+                        md={{ span: 8, order: 1 }}
                         lg={{ span: 8, order: 1 }}
                     >
                         <img
@@ -42,7 +48,8 @@ function Landing(props) {
                             ExpiredMessage="Let the Events Begin!"
                         />
                         <div className="actions d-flex justify-content-center flex-column flex-md-row">
-                            <Button variant="primary m-2">Sponsor</Button>
+                            <Button variant="primary m-2">Sponsor Us</Button>
+                            <Button variant="danger m-2" redirect="/register" onClick={routeChange}>Register</Button>
                         </div>
                     </Col>
                 </Row>

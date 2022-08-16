@@ -11,10 +11,10 @@ const FAQs = () => {
             <Section id="faqs" name="FAQs">
                 <Col
                     className="justify-content-center faq-col"
-                    xs={{ span: 11}}
-                    sm={{ span: 11}}
-                    md={{ span: 9}}
-                    lg={{ span: 9}}
+                    xs={{ span: 11 }}
+                    sm={{ span: 11 }}
+                    md={{ span: 9 }}
+                    lg={{ span: 9 }}
                 >
                     <Accordion>
                         {

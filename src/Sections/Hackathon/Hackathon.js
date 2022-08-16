@@ -4,6 +4,7 @@ import Section from "../../Components/Section/Section";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 
 import HackathonData from "../../Data/Hackathons.json";
 
@@ -21,6 +22,12 @@ const Hackathon = (props) => {
         }
         active.classList.add("active");
     });
+
+    let navigate = useNavigate();
+    const routeChange = (event) => {
+        navigate(event.target.attributes.redirect.nodeValue);
+        // console.log();
+    }
 
     return(
         <Section id="hackathon" name="Hackathons">
@@ -56,8 +63,8 @@ const Hackathon = (props) => {
             <Col id="desc2" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
-                <Button variant="danger" className="register-btn button disabled">Register Now</Button>
-                <label>Registrations will begin soon!</label>
+                <Button variant="danger" className="register-btn button" redirect={"/register/"+activeCard.path} onClick={routeChange}>Register Now</Button>
+                {/* <label>Registrations will begin soon!</label> */}
             </Col>
                 
             </Row>

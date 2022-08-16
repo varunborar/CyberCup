@@ -3,6 +3,7 @@ import React, { useState, useEffect} from "react";
 import Section from "../../Components/Section/Section";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { useNavigate } from 'react-router-dom';
 import Button from "react-bootstrap/Button";
 
 import EventData from "../../Data/Events.json";
@@ -11,6 +12,11 @@ import "./Event.css";
 
 const Event = (props) => {
     const [activeCard, setActiveCard] = useState(EventData[0]);
+    let navigate = useNavigate();
+    const routeChange = (event) => {
+        navigate(event.target.attributes.redirect.nodeValue);
+        // console.log();
+    }
     useEffect(()=>{
         var active = document.getElementById(activeCard.name);
         var eventList = document.getElementsByClassName('event-card');
@@ -56,8 +62,9 @@ const Event = (props) => {
             <Col id="desc" className="desc-container justify-content-start">
                 <h1>{activeCard.name}</h1>
                 <p>{activeCard.long}</p>
-                <Button variant="danger" className="register-btn button disabled">Register Now</Button>
-                <label>Registrations will begin soon!</label>
+                <Button variant="danger" className="register-btn button" redirect={"/register/"+activeCard.path} onClick={routeChange}>Register Now</Button>
+                {/* <label>Registrations will begin soon!</label> */}
+
             </Col>
                 
             </Row>

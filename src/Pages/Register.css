@@ -1,0 +1,13 @@
+#events .event-container {
+    margin-top: 3rem;
+}
+
+#events .event {
+    margin: 0.25rem;
+    background-color: var(--cc-background-color-secondary);
+    color: var(--cc-accent-color-primary);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 0.25rem;
+    text-align: center;
+}

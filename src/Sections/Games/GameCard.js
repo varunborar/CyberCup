@@ -3,9 +3,15 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import {useNavigate} from 'react-router-dom';
 import './Games.css';
 
 const GameCard = (props) => {
+    let navigate = useNavigate();
+    const routeChange = (event) => {
+        navigate(event.target.attributes.redirect.nodeValue);
+        // console.log();
+    }
     return (
         <div className="game-card">
             <Row
@@ -31,8 +37,8 @@ const GameCard = (props) => {
                     className="align-items-center justify-content-center"
                 >
                     <h2 className="game-title">{props.name}</h2>
-                    <Button variant="danger" className="register-btn button disabled">Register Now</Button>
-                    <label>Registrations will begin soon!</label>
+                    <Button variant="danger" className="register-btn button" redirect={"/register/"+props.path} onClick={routeChange}>Register Now</Button>
+                    {/* <label>Registrations will begin soon!</label> */}
                 </Col>
 
             </Row>

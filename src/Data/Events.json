@@ -2,24 +2,30 @@
         "_id": 1,
         "name": "Comp cop",
         "short": "48-hours Long capture the flag competition",
-        "long": "A 48-hour long capture the flag competition pertaining to Cyber Security, with emphasis on application of principles and measures of ensuring Cyber Security. The objective is to spread awareness about Cyber Security posed by today’s connected world and to make people aware of the methods to deal with them."
+        "long": "A 48-hour long capture the flag competition pertaining to Cyber Security, with emphasis on application of principles and measures of ensuring Cyber Security. The objective is to spread awareness about Cyber Security posed by today’s connected world and to make people aware of the methods to deal with them.",
+        "path": "comp-cop"
     },
     {
         "_id": 2,
         "name": "Blend it",
         "short": "24 hours long 2- rounds based photo editing competition",
-        "long": "The photoshoot is only the first half of creating a great image. A skilled photo editor can take a good RAW image and use a myriad of techniques to create a stunning final photo. This event is a 24-hour long, 2-tiered photo editing competition for the artistic minds to showcase their skills and creativity."
+        "long": "The photoshoot is only the first half of creating a great image. A skilled photo editor can take a good RAW image and use a myriad of techniques to create a stunning final photo. This event is a 24-hour long, 2-tiered photo editing competition for the artistic minds to showcase their skills and creativity.",
+        "path": "blend-it"
     },
     {
         "_id": 3,
         "name": "Tech wizard",
         "short": "3 rounds based quiz competition on dsa and new technologies",
-        "long": "Data Structure and Algorithms (DSA) is the most important part of Computer Science. Data structure is a way of organizing data in such a way that we can perform operations on that data easily. This event is a 3-tiered Quiz competition on DSA & Technologies for the techies to test their programming skills from beginner to advanced level. This quiz will help you clear your concepts and prepare for technical rounds, interviews, competitive exams, etc."
+        "long": "Data Structure and Algorithms (DSA) is the most important part of Computer Science. Data structure is a way of organizing data in such a way that we can perform operations on that data easily. This event is a 3-tiered Quiz competition on DSA & Technologies for the techies to test their programming skills from beginner to advanced level. This quiz will help you clear your concepts and prepare for technical rounds, interviews, competitive exams, etc.",
+        "path": "tech-wizard"
+
     },
     {
         "_id": 4,
         "name": "Filter All",
         "short": "2 rounds based Ar filter competition",
-        "long": "This event is a 2-tiered AR filter competition. The competition gives the participants with a chance to turn their creativity into numerous prizes and earn their credibility. Entrants will submit effects inspired by a specific theme or capability, which will be judged based on craftsmanship, originality and user engagement."
+        "long": "This event is a 2-tiered AR filter competition. The competition gives the participants with a chance to turn their creativity into numerous prizes and earn their credibility. Entrants will submit effects inspired by a specific theme or capability, which will be judged based on craftsmanship, originality and user engagement.",
+        "path": "filter-all"
+
     }
 ]
