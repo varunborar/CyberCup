@@ -3,19 +3,19 @@ import './App.css';
 import Home from './Pages/Home';
 import Register from './Pages/Register';
 import RegisterForm from './Pages/RegisterForm';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter baseline="/">
         <Routes>
           <Route path="/register" element={<Register/>}/>
           <Route path="/register/:id" element={<RegisterForm/>}/>
           <Route exact path="/" element={<Home/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

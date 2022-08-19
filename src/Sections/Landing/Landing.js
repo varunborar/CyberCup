@@ -48,7 +48,7 @@ function Landing(props) {
                             ExpiredMessage="Let the Events Begin!"
                         />
                         <div className="actions d-flex justify-content-center flex-column flex-md-row">
-                            <Button variant="primary m-2">Sponsor Us</Button>
+                            <Button variant="primary m-2" onClick={() => window.location = "https://gzqyk482yst.typeform.com/to/UfGknRJV"}>Sponsor Us</Button>
                             <Button variant="danger m-2" redirect="/register" onClick={routeChange}>Register</Button>
                         </div>
                     </Col>

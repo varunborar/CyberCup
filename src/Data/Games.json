@@ -9,11 +9,5 @@
         "name": "Valorant",
         "image": "valorant.png",
         "path": "valorant"
-    },
-    {
-        "_id": 3,
-        "name": "Casual Games",
-        "image": "casual.png",
-        "path": ""
     }
 ]
