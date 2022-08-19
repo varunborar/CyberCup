@@ -1,14 +1,14 @@
 [{
         "_id": 1,
         "name": "Design Sprint",
-        "short": "48-hours long UI/UX design hackathon",
-        "long": "This UI/UX Design Hackathon is a 48-hour long creativity challenge which will allow creative minds to fully use their capabilities and imagination and create new designs and ideas for an optimal user experience. The hackathon will be drafted in a way which will allow neophytes, dilettantes and adroit to easily adapt to the problem served, and will allow an overall gain in knowledge and experience of the participants in UI/UX domain.",
+        "short": "48-hour long UI/UX design hackathon",
+        "long": "This UI/UX Design Hackathon is a 48-hour long creativity challenge which will allow creative minds to fully use their capabilities and imagination to create new designs and ideas for an optimal user experience. The hackathon will be drafted in a way which will allow neophytes, dilettantes and adroit to easily adapt to the problem served, and will allow an overall gain in knowledge and experience of the participants in UI/UX domain.",
         "path": "design-sprint"
     },
     {
         "_id": 2,
-        "name": "Ai Classico",
-        "short": "48 hours long ai-ml project based hackathon",
+        "name": "AI Classico",
+        "short": "48-hour long AI/ML project based hackathon",
         "long": "A 48-hour long hackathon to bring creatives and developers together to solve some of the most pressing problems that we face in real-life. The initiative of this hackathon is to provide the AI/ML enthusiasts with a platform and opportunity to learn, apply and showcase their AI/ML skills through the social impact challenges that will be presented to them.",
         "path": "ai-classico"
     }
