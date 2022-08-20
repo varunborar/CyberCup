@@ -33,7 +33,7 @@ const responsive = {
 
 const Team = (props) => {
     return (
-        <Section id="team" name="Core Team">
+        <Section id="team" name="Student Organisers">
             <Carousel
                 rewind
                 rtl={false}
