@@ -1,12 +1,12 @@
 [{
         "_id": 1,
         "header": "When and where is Cyber Cup happening?",
-        "body": "It will be happening from September 21st - 23rd 2022, at Amity University, Noida campus."
+        "body": "It will be happening from September 21st to 23rd 2022, at Amity University, Noida campus."
     },
     {
         "_id": 2,
         "header": "Who can participate in this event?",
-        "body": "This event is open to undergraduate students from Amity University, as well as from other colleges, who are up for exciting challenges!"
+        "body": "This event is open to all undergraduate students who are up for exciting challenges!"
     },
     {
         "_id": 3,
@@ -16,7 +16,7 @@
     {
         "_id": 4,
         "header": "Do I need a team?",
-        "body": "While in some events, participation with a team might be beneficial but not required, whereas some events allow individual participation only. Check out the event page to know more."
+        "body": "While in some events, participation with a team might be beneficial but not required, whereas in other events only individual participation is allowed."
     },
     {
         "_id": 5,
@@ -26,7 +26,7 @@
     {
         "_id": 6,
         "header": "Do I need to pay anything to participate in an event?",
-        "body": "It’s Free. There is no participation cost."
+        "body": "It’s FREE. There is no participation cost."
     },
     {
         "_id": 7,
@@ -41,11 +41,12 @@
     {
         "_id": 9,
         "header": "How do I get regular updates about the events?",
-        "body": "Regular updation mails will be sent to you once you register for an event. For more details, follow our socials: Instagram & LinkedIn"
+        "body": "Regular updation mails will be sent to you once you register for an event. For more details, follow our socials ",
+        "link": "HERE"
     },
     {
         "_id": 10,
         "header": "What's in it for me?",
-        "body": "Hackathons and Coding Competitions are a great way to expand your network, brainstorm and unleash your potential to bring out the best in you! Also, top participants in each event will be getting some amazing prizes and vouchers!"
+        "body": "Hackathons and Coding Competitions are a great way to expand your network, brainstorm ideas and unleash your potential to bring out the best in you! Also, top participants in each event will be getting some amazing prizes and vouchers! We look forward to seeing your participation in Cyber Cup 2022!"
     }
 ]

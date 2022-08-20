@@ -1,22 +1,22 @@
 [{
         "_id": 1,
         "name": "Comp Cop",
-        "short": "48-hour long capture the flag competition",
-        "long": "A 48-hour long capture the flag competition pertaining to Cyber Security, with emphasis on application of principles and measures of ensuring Cyber Security. The objective is to spread awareness about Cyber Security posed by today’s connected world and to make people aware of the methods to deal with them.",
+        "short": "48-hour long treasure hunt competition",
+        "long": "Comp Cop is a treasure hunt competition that will be based on logical reasoning and situational awareness. It will contain challenging encryptions and ciphers which must be decrypted and solved to gain an essential hint which will open the gateway to the next level for the participants. Comp Cop will be a 48-hour long event based on cryptography.",
         "path": "comp-cop"
     },
     {
         "_id": 2,
         "name": "Blend It",
         "short": "24-hour long 2-rounds based photo editing competition",
-        "long": "The photoshoot is only the first half of creating a great image. A skilled photo editor can take a good RAW image and use a myriad of techniques to create a stunning final photo. This event is a 24-hour long, 2-tiered photo editing competition for the artistic minds to showcase their skills and creativity.",
+        "long": "Clicking photos is just one part of the art of expression, a great photo can express emotions and an immense connect to the object in the image. Such exceptional photos are made by great editors who can put a soul into a photograph and make it a prefect click. Blend It is a 24-hour long 2-tiered photo editing competition allowing great photo editors to showcase their talent and explore their imaginations.",
         "path": "blend-it"
     },
     {
         "_id": 3,
         "name": "Tech Wizard",
         "short": "3-rounds based quiz competition on DSA and new technologies",
-        "long": "Data Structure and Algorithms (DSA) is the most important part of Computer Science. Data structure is a way of organizing data in such a way that we can perform operations on that data easily. This event is a 3-tiered Quiz Competition on DSA & Technologies for the techies to test their programming skills from beginner to advanced level. This quiz will help you clear your concepts and prepare for technical rounds, interviews, competitive exams, etc.",
+        "long": "Tech Wizard is a coding event where you can showcase your aptitude and problem-solving skills by working on different mind-boggling challenges. This event will be 48-hours long and will comprise of three rounds viz, Debugging, Blind Coding, and Reverse Engineering, which will be the final round.",
         "path": "tech-wizard"
 
     },

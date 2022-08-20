@@ -21,7 +21,7 @@ const ShowCounter = ({days, hours, minutes, seconds}) => {
         <p>:</p>
         <DateTimeDisplay value={minutes} type={'Mins'} isDanger={days <= 3} />
         <p className='sec'>:</p>
-        <DateTimeDisplay className='sec' value={seconds} type={'Sec'} isDanger={days <= 3} />
+        <DateTimeDisplay className='sec' value={seconds} type={'Secs'} isDanger={days <= 3} />
     </div>
     )
 }
