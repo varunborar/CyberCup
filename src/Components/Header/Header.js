@@ -2,6 +2,8 @@ import React from 'react';
 import Logo from './resources/LW1.svg';
 import './Header.css';
 
+import { HashLink } from 'react-router-hash-link';
+
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -25,9 +27,10 @@ const Header = (props) => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#event">Events</Nav.Link>
-                            {/* <Nav.Link href="#hackathon">Hackathons</Nav.Link> */}
-                            <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+                            <HashLink className='nav-link' smooth to={"/#hackathon"}>Hackathons</HashLink>
+                            <HashLink className='nav-link' smooth to={"/#event"}>Events</HashLink>
+                            <HashLink className='nav-link' smooth to={"/#faqs"}>FAQs</HashLink>
+                            <HashLink className='nav-link' smooth to={"/#sponsors"}>Sponsors</HashLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
