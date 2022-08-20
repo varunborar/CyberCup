@@ -4,7 +4,7 @@ import "./DateTimeDisplay.css"
 
 const DateTimeDisplay = ({ value, type, isDanger }) => {
   return (
-    <div className={isDanger ? type === "Sec" ? 'sec cell danger' : 'cell danger' : type === "Sec" ? 'sec cell' : 'cell'}>
+    <div className={isDanger ? type === "Secs" ? 'sec cell danger' : 'cell danger' : type === "Secs" ? 'sec cell' : 'cell'}>
       <p>{value}</p>
       <span>{type}</span>
     </div>
