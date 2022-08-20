@@ -22,7 +22,9 @@ const FAQs = () => {
                                 return (
                                     <Accordion.Item eventKey={faq._id} key={faq._id} className="acc-item">
                                         <Accordion.Header className="acc-header">{faq.header}</Accordion.Header>
-                                        <Accordion.Body>{faq.body}</Accordion.Body>
+                                        <Accordion.Body>{faq.body} 
+                                        <a target='_blank' className="reach-out" href="https://znap.link/cybercup22">{faq.link}</a>
+                                        </Accordion.Body>
                                     </Accordion.Item>
                                 )
                             })

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './resources/LW.svg';
+import Logo from './resources/LW1.svg';
 import './Header.css';
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -26,6 +26,7 @@ const Header = (props) => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link href="#event">Events</Nav.Link>
+                            {/* <Nav.Link href="#hackathon">Hackathons</Nav.Link> */}
                             <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
